@@ -1,0 +1,6 @@
+I created this demo because of a challenge that was presented to me, enter into a CSS3 animation competition. I am a game developer, I dont make animations, I make games. So I made this. 
+
+This entire game is rendered using only CSS. There is a single image in the game for the mouse pointer, since chrome is not nice enough to let me change the mouse to a div... 
+The cars themselves are a series of divs and CSS to get the lines and rounded corners to represent a car. View the example where there are only 3 cars being animated; zoom in your browser to see them in all their glory. 
+
+Thanks to @kadamwhite for making me some sprites to work off of.
