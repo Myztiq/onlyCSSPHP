@@ -1,0 +1,878 @@
+/******************************************************/
+/******************************************************/
+/******************* Taxi Styling**********************/
+/******************************************************/
+/******************************************************/
+.taxi{
+	width:46px;
+	height:87px;
+	left:45px;
+	position:absolute;
+	top:87px;
+	background-color:#fec844;
+	-webkit-border-radius: 5px;
+	-webkit-border-bottom-left-radius: 7px;
+	-webkit-border-bottom-right-radius: 7px;
+}
+.taxi .frontWindshield{
+	position:absolute;
+	height:12px;
+	width:38px;
+	left:4px;
+	top:23px;
+	overflow: hidden;
+}
+.taxi .frontWindshieldMain{
+	position:absolute;
+	background-color:black;
+	width: 38px;
+	left: 0px;
+	top: 0px;
+	height:50px;
+	background-color:black;
+	-webkit-border-top-left-radius: 14px 3px;
+	-webkit-border-top-right-radius: 14px 3px;
+
+}
+.taxi .rearWindshield{
+	position:absolute;
+	height:12px;
+	width:38px;
+	left:4px;
+	top:56px;
+	overflow: hidden;
+}
+.taxi .roof{
+	position:absolute;
+	z-index: 2;
+	top:33px;
+	left:6px;
+	width:34px;
+	height:24px;
+	-webkit-border-radius: 5px;
+	background-color:#fec844;
+
+}
+.taxi .leftWindow{
+	z-index:1;
+	position:absolute;
+	overflow:hidden;
+	left:2px;
+	width:6px;
+	height:35px;
+	top:28px;
+}
+.taxi .rightWindow{
+	z-index:1;
+	position:absolute;
+	overflow:hidden;
+	left:38px;
+	width:6px;
+	height:35px;
+	top:28px;
+	/*background-color:black;*/
+}
+.taxi .frontWindshield .leftBlocking{
+	position:absolute;
+	background-color:#fec844;
+	height:50px;
+	width:50px;
+	-webkit-transform: rotate(-24deg);
+	left:-43px;
+}
+.taxi .frontWindshield .rightBlocking{
+	position:absolute;
+	background-color:#fec844;
+	height:50px;
+	width:50px;
+	-webkit-transform: rotate(24deg);
+	left:31px;
+
+}
+.taxi .rearWindshieldMain{
+	background-color:black;
+	position:absolute;
+	background-color:black;
+	width: 38px;
+	left: 0px;
+	top: -38px;
+	height:50px;
+	background-color:black;
+	-webkit-border-bottom-left-radius: 14px 3px;
+	-webkit-border-bottom-right-radius: 14px 3px;
+}
+.taxi .rearWindshield .leftBlocking{
+	position:absolute;
+	background-color:#fec844;
+	height:50px;
+	width:50px;
+	-webkit-transform: rotate(24deg);
+	left:-51px;
+	top:-20px;
+}
+.taxi .rearWindshield .rightBlocking{
+	position:absolute;
+	background-color:#fec844;
+	height:50px;
+	-webkit-transform: rotate(-24deg);
+	width:50px;
+	left:39px;
+	top:-20px;
+}
+.taxi .leftWindow .topBlocking{
+	position:absolute;
+	background-color:black;
+	height:50px;
+	-webkit-transform: rotate(-24deg);
+	width:50px;
+	left:-49px;
+	top:-18px;
+}
+.taxi .leftWindow .bottomBlocking{
+	position: absolute;
+	background-color: black;
+	height: 50px;
+	-webkit-transform: rotate(24deg);
+	width: 50px;
+	left: -49px;
+	top: 3px;
+}
+.taxi .rightWindow .topBlocking{
+	position: absolute;
+	background-color: black;
+	height: 50px;
+	-webkit-transform: rotate(24deg);
+	width: 50px;
+	left: 5px;
+	top: -18px;
+}
+.taxi .rightWindow .bottomBlocking{
+	position: absolute;
+	background-color: black;
+	height: 50px;
+	width: 50px;
+	-webkit-transform: rotate(-24deg);
+	left: 5px;
+	top: 3px;
+}
+.taxi .trunkLeft{
+	position: absolute;
+	width: 1px;
+	background-color: #B3B3A6;
+	height: 18px;
+	-webkit-transform: rotate(-16deg);
+	top: 67px;
+	left: 6px;
+	opacity:.5;
+}
+.taxi .trunkRight{
+	position: absolute;
+	width: 1px;
+	background-color: #B3B3A6;
+	height: 18px;
+	-webkit-transform: rotate(16deg);
+	top: 67px;
+	left: 39px;
+	opacity:.5;
+}
+.taxi .hoodBumpRight{
+	position: absolute;
+	width: 4px;
+	background-color: white;
+	height: 18px;
+	top: 3px;
+	left: 33px;
+	overflow: hidden;
+	opacity:.3;
+	-webkit-transform: rotate(-3deg);
+}
+.taxi .hoodBumpRight .hoodCover{
+	position: absolute;
+	-webkit-transform: rotate(-8deg);
+	height: 30px;
+	width: 30px;
+	background-color: #FEC844;
+	left: 1px;
+	top: -10px;
+}
+.taxi .hoodBumpLeft{
+	position: absolute;
+	width: 4px;
+	background-color: white;
+	height: 18px;
+	top: 3px;
+	left: 11px;
+	overflow: hidden;
+	opacity:.3;
+	-webkit-transform: rotate(3deg);
+}
+.taxi .hoodBumpLeft .hoodCover{
+	position: absolute;
+	-webkit-transform: rotate(8deg);
+	height: 30px;
+	width: 30px;
+	background-color: #FEC844;
+	left: -27px;
+	top: -10px;
+}
+.taxi .taxiLightContainer{
+	position: absolute;
+	top: 7px;
+	left: 10px;
+	height: 10px;
+	width: 15px;
+}
+.taxi .taxiLight{
+	position: absolute;
+	top:3px;
+	width:13px;
+	left:0px;
+	height:3px;
+	background-color: white;
+	-webkit-border-radius: 2px;
+}
+.taxi .taxiLightInner{
+	position: absolute;
+	width:11px;
+	left:1px;
+	height:1px;
+	top:1px;
+	background-color: #FEC844;
+	-webkit-border-radius: 1px;
+}
+.taxi .taxiSign{
+	position: absolute;
+	top:1px;
+	width:5px;
+	left:4px;
+	height:6px;
+	background-color: white;
+	z-index:-1;
+}
+.taxi .taxiSignBack{
+	position: absolute;
+	width: 5px;
+	height: 1px;
+	top: 5px;
+	background-color: #828282;
+	z-index: 1;
+	left: 4px;
+	opacity:.7;
+}
+.taxi .leftMirror{
+	position: absolute;
+	left: -2px;
+	top: 30px;
+	height: 2px;
+	width: 3px;
+	background-color: black;
+	-webkit-border-top-left-radius: 4px 1px;
+	-webkit-border-bottom-left-radius: 1px 1px;
+	-webkit-border-bottom-right-radius: 3px 1px;
+}
+.taxi .rightMirror{
+	position: absolute;
+	left: 45px;
+	top: 30px;
+	height: 2px;
+	width: 3px;
+	background-color: black;
+	-webkit-border-top-right-radius: 4px 1px;
+	-webkit-border-bottom-left-radius: 1px 1px;
+	-webkit-border-bottom-right-radius: 3px 1px;
+}
+.taxi .tire1{
+	-webkit-border-bottom-left-radius: 5px;
+	-webkit-border-top-left-radius: 5px;
+	height:15px;
+	margin-top:20px;
+	width:2px;
+	background-color:black;
+	position:absolute;
+	left:-2px;
+}
+.taxi .tire2{
+	-webkit-border-bottom-left-radius: 5px;
+	-webkit-border-top-left-radius: 5px;
+	height:15px;
+	margin-top:63px;
+	width:2px;
+	background-color:black;
+	position:absolute;
+	left:-2px;
+}
+.taxi .tire3{
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	height:15px;
+	margin-top:20px;
+	width:2px;
+	left:46px;
+	background-color:black;
+	position:absolute;
+}
+.taxi .tire4{
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	left:46px;
+	height:15px;
+	margin-top:63px;
+	width:2px;
+	background-color:black;
+	position:absolute;
+}
+
+/******************************************************/
+/******************************************************/
+/***************** Police Styling**********************/
+/******************************************************/
+/******************************************************/
+.police{
+	width:46px;
+	height:87px;
+	left:45px;
+	top:87px;
+	position:absolute;
+
+}
+.police .body{
+	background-color:transparent;
+	margin-left:2px;
+	margin-right:2px;
+	border: 2px solid black;
+	-webkit-border-radius:10px;
+	width:42px;
+	height:87px;
+	position:absolute;
+}
+.police .roof{
+	position: absolute;
+	height: 36px;
+	width: 38px;
+	background-color: black;
+	top: 32px;
+	left: 2px;
+}
+.police .roofInner{
+	position: absolute;
+	height: 36px;
+	width: 38px;
+	-webkit-border-radius: 5px;
+	-webkit-border-top-left-radius: 8px;
+	-webkit-border-top-right-radius: 8px;
+	background-color: white;
+	/*top: 32px;*/
+	/*left: 2px;*/
+}
+.police .tire1{
+	-webkit-border-bottom-left-radius: 5px;
+	-webkit-border-top-left-radius: 5px;
+	height:15px;
+	margin-top:20px;
+	width:2px;
+	background-color:black;
+	position:absolute;
+}
+.police .tire2{
+	-webkit-border-bottom-left-radius: 5px;
+	-webkit-border-top-left-radius: 5px;
+	height:15px;
+	margin-top:63px;
+	width:2px;
+	background-color:black;
+	position:absolute;
+}
+.police .tire3{
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	height:15px;
+	margin-top:20px;
+	width:2px;
+	left:48px;
+	background-color:black;
+	position:absolute;
+}
+.police .tire4{
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	left:48px;
+	height:15px;
+	margin-top:63px;
+	width:2px;
+	background-color:black;
+	position:absolute;
+}
+.police .lights{
+	/*background-color:red;*/
+	width:32px;
+	height:5px;
+	margin-top:44px;
+	margin-left:5px;
+	z-index: 50;
+	position:absolute;
+}
+.police .lights .red{
+	width:8px;
+	height:5px;
+	background-color:red;
+	float:left;
+	z-index: 50;
+	-webkit-animation: policeLightsRed .5s infinite;
+
+}
+.police .lights .blue{
+	float:left;
+	width:8px;
+	height:5px;
+	background-color:blue;
+	z-index: 50;
+	-webkit-animation: policeLightsBlue .25s infinite;
+}
+.police .lights .last{
+	-webkit-border-bottom-right-radius:5px;
+	-webkit-border-top-right-radius: 5px;
+}
+.police .lights .first{
+	-webkit-border-bottom-left-radius:5px;
+	-webkit-border-top-left-radius: 5px;
+}
+.hood{
+	position: absolute;
+	background-color:black;
+	color:white;
+	width:42px;
+	height:33px;
+	top:-1px;
+	font-size:12px;
+	text-align: center;
+	-webkit-border-bottom-left-radius: 8px;
+	-webkit-border-bottom-right-radius: 8px;
+	-webkit-transform: rotate(-180deg);
+	line-height:42px;
+
+}
+.trunk{
+	position: absolute;
+	background-color: black;
+	width:42px;
+	height:20px;
+	top:68px;
+	-webkit-border-bottom-left-radius: 8px;
+	-webkit-border-bottom-right-radius: 8px;
+}
+@-webkit-keyframes policeLightsRed {
+	0% {
+		background-color:blue;
+	}
+	49.9%{
+		background-color:blue;
+	}
+	50%{
+		background-color:red;
+	}
+	100% {
+		background-color:red;
+	}
+}
+@-webkit-keyframes policeLightsBlue {
+	0% {
+		background-color:red;
+	}
+	49.9%{
+		background-color:red;
+	}
+	50%{
+		background-color:blue;
+	}
+	100% {
+		background-color:blue;
+	}
+}
+.police .leftBlack{
+	height:37px;
+	width:2px;
+	background-color: black;
+	position:absolute;
+	top:32px;
+	left:0px;
+	z-index: 1000;
+}
+.police .rightBlack{
+	height:37px;
+	width:2px;
+	background-color: black;
+	position:absolute;
+	top:32px;
+	left:40px;
+	z-index: 1000;
+}
+/******************************************************/
+/******************************************************/
+/******************* Minivan Styling*******************/
+/******************************************************/
+/******************************************************/
+.minivan{
+	width:46px;
+	height:87px;
+	left:45px;
+	position:absolute;
+	top:87px;
+	background-color:#566789;
+	-webkit-border-radius: 3px;
+	-webkit-border-top-left-radius: 7px 5px;
+	-webkit-border-top-right-radius: 7px 5px;
+}
+.minivan .frontWindshield{
+	position: absolute;
+	top:12px;
+	left:2px;
+	width:42px;
+	height:17px;
+	overflow: hidden;
+	background-color:black;
+	-webkit-border-top-left-radius: 20px 5px;
+	-webkit-border-top-right-radius: 20px 5px;
+	z-index:0;
+}
+.minivan .frontWindshield .leftCover{
+	position: absolute;
+	background-color: #566789;
+	top: 2px;
+	left: -34px;
+	width: 40px;
+	height: 40px;
+	-webkit-transform: rotate(-24deg);
+}
+.minivan .frontWindshield .rightCover{
+	position: absolute;
+	background-color: #566789;
+	top: 2px;
+	left: 36px;
+	width: 40px;
+	height: 40px;
+	-webkit-transform: rotate(24deg);
+}
+.minivan .roof{
+	position: absolute;
+	z-index:2;
+	height:54px;
+	width: 36px;
+	left: 5px;
+	top:25px;
+	-webkit-border-top-left-radius: 20px 5px;
+	-webkit-border-top-right-radius: 20px 5px;
+	background-color:#566789;
+}
+.minivan .backWindshield{
+	position: absolute;
+	top:80px;
+	height:3px;
+	width: 38px;
+	left: 4px;
+	background-color:black;
+	overflow: hidden;
+}
+.minivan .backWindshield .leftCover{
+	position: absolute;
+	background-color: #566789;
+	top: -15px;
+	left: -43px;
+	width: 40px;
+	height: 40px;
+	-webkit-transform: rotate(24deg);
+
+}
+.minivan .backWindshield .rightCover{
+	position: absolute;
+	background-color: #566789;
+	top: -15px;
+	left: 41px;
+	width: 40px;
+	height: 40px;
+	-webkit-transform: rotate(-24deg);
+}
+.minivan .leftWindow{
+	position: absolute;
+	height: 60px;
+	width: 7px;
+	left: 2px;
+	top: 22px;
+	overflow: hidden;
+}
+.minivan .leftWindow .topBlack{
+	position: absolute;
+	background-color: black;
+	top: -5px;
+	left: -38px;
+	width: 40px;
+	height: 28px;
+	-webkit-transform: rotate(-24deg);
+}
+
+.minivan .leftWindow .bottomBlack{
+	position: absolute;
+	background-color: black;
+	top: 38px;
+	left: -38px;
+	width: 40px;
+	height: 28px;
+	-webkit-transform: rotate(24deg);
+}
+.minivan .leftWindow .middleBlack{
+	position: absolute;
+	background-color: black;
+	top: 13px;
+	left: -33px;
+	width: 40px;
+	height: 33px;
+}
+.minivan .leftWindow .windowSpacerTop{
+	position: absolute;
+	background-color: #566789;
+	top: 17px;
+	left: 0px;
+	width: 10px;
+	height: 2px;
+}
+.minivan .leftWindow .windowSpacerMiddle{
+	position: absolute;
+	background-color: #566789;
+	top: 33px;
+	left: 0px;
+	width: 10px;
+	height: 2px;
+}
+.minivan .leftWindow .windowSpacerBottom{
+	position: absolute;
+	background-color: #566789;
+	top: 47px;
+	left: 0px;
+	width: 10px;
+	height: 1px;
+	-webkit-transform: rotate(-12deg);
+}
+
+.minivan .rightWindow{
+	position: absolute;
+	height: 60px;
+	width: 7px;
+	left: 37px;
+	top: 22px;
+	overflow: hidden;
+}
+.minivan .rightWindow .topBlack{
+	position: absolute;
+	background-color: black;
+	top: -5px;
+	left: 5px;
+	width: 40px;
+	height: 28px;
+	-webkit-transform: rotate(24deg);
+}
+
+.minivan .rightWindow .bottomBlack{
+	position: absolute;
+	background-color: black;
+	top: 38px;
+	left: 5px;
+	width: 40px;
+	height: 28px;
+	-webkit-transform: rotate(-24deg);
+}
+.minivan .rightWindow .middleBlack{
+	position: absolute;
+	background-color: black;
+	top: 13px;
+	left: -33px;
+	width: 40px;
+	height: 33px;
+}
+.minivan .rightWindow .windowSpacerTop{
+	position: absolute;
+	background-color: #566789;
+	top: 17px;
+	left: 0px;
+	width: 10px;
+	height: 2px;
+}
+.minivan .rightWindow .windowSpacerMiddle{
+	position: absolute;
+	background-color: #566789;
+	top: 33px;
+	left: 0px;
+	width: 10px;
+	height: 2px;
+}
+.minivan .rightWindow .windowSpacerBottom{
+	position: absolute;
+	background-color: #566789;
+	top: 47px;
+	left: 0px;
+	width: 10px;
+	height: 1px;
+	-webkit-transform: rotate(12deg);
+}
+.minivan .hoodBumpLeft{
+	position: absolute;
+	height: 15px;
+	width: 3px;
+	top: 0px;
+	left: 7px;
+	background-color: white;
+	-webkit-transform: rotate(16deg);
+	overflow: hidden;
+	opacity:.3;
+}
+.minivan .hoodBumpLeft .cover{
+	position: absolute;
+	height: 34px;
+	width: 10px;
+	top: -5px;
+	left: -9px;
+	background-color: #566789;
+	-webkit-transform: rotate(9deg);
+}
+.minivan .hoodBumpRight{
+	position: absolute;
+	height: 15px;
+	width: 3px;
+	top: 0px;
+	left: 36px;
+	background-color: white;
+	-webkit-transform: rotate(-16deg);
+	overflow: hidden;
+	opacity: .3;
+}
+.minivan .hoodBumpRight .cover{
+	position: absolute;
+	height: 34px;
+	width: 10px;
+	top: -5px;
+	left: 2px;
+	background-color: #566789;
+	-webkit-transform: rotate(-9deg);
+}
+.minivan .rack{
+	position: absolute;
+	height: 40px;
+	width: 2px;
+	top: 8px;
+	left: 5px;
+	background-color: black;
+	-webkit-border-radius: 5px;
+}
+.minivan .rack1{
+	position: absolute;
+	height: 40px;
+	width: 2px;
+	top: 8px;
+	left: 29px;
+	background-color: black;
+	-webkit-border-radius: 5px;
+}
+.minivan .rack2{
+	position: absolute;
+	height: 40px;
+	width: 2px;
+	top: 8px;
+	left: 17px;
+	background-color: black;
+	-webkit-border-radius: 5px;
+}
+.minivan .tire1{
+	-webkit-border-bottom-left-radius: 5px;
+	-webkit-border-top-left-radius: 5px;
+	height:15px;
+	margin-top:20px;
+	width:2px;
+	background-color:black;
+	position:absolute;
+	left:-2px;
+}
+.minivan .tire2{
+	-webkit-border-bottom-left-radius: 5px;
+	-webkit-border-top-left-radius: 5px;
+	height:15px;
+	margin-top:63px;
+	width:2px;
+	background-color:black;
+	position:absolute;
+	left:-2px;
+}
+.minivan .tire3{
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	height:15px;
+	margin-top:20px;
+	width:2px;
+	left:46px;
+	background-color:black;
+	position:absolute;
+}
+.minivan .tire4{
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	left:46px;
+	height:15px;
+	margin-top:63px;
+	width:2px;
+	background-color:black;
+	position:absolute;
+}
+.about a,
+	    .about a:visited{
+		    color:white;
+	    }
+		.about{
+			position:absolute;
+			bottom:15px;
+			right:30px;
+			border: 3px solid white;
+			-webkit-border-radius:10px;
+			padding: 10px;
+			cursor:pointer;
+			color:white;
+			background-color:gray;
+			-webkit-transition:all 1s linear;
+			z-index:1000;
+		}
+		.about .aboutDetails{
+			width: 0px;
+			height: 0px;
+			top: 15px;
+			left: 15px;
+			overflow: hidden;
+			position: absolute;
+			border: 0px solid transparent;
+			display: block;
+			cursor:default;
+			border: 0px solid transparent;
+			-webkit-transition:all 1s linear;
+			z-index:1000;
+			opacity:.1;
+			background-color:transparent;
+		}
+		.about:hover{
+			-webkit-border-top-left-radius: 0px;
+			-webkit-border-top-right-radius: 0px;
+			border: 3px solid transparent;
+			background-color:white;
+			color:gray;
+			-webkit-transition:all 1s linear;
+		}
+		.about:hover .aboutDetails{
+			color:white;
+			padding: 10px;
+			-webkit-border-radius:20px;
+			width: 300px;
+			height: 385px;
+			top: -411px;
+			left: -250px;
+			background-color:gray;
+			border: 3px solid white;
+			-webkit-transition:all 1s linear;
+			opacity:1;
+		}
+		 .about .title{
+			 font-size:22px;
+		 }

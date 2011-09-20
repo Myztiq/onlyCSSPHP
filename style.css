@@ -1,0 +1,133 @@
+#gameInternal{
+	cursor: url('images/ship.png');
+	width:754px;
+	height:513px;
+	z-index:2;
+	position:absolute;
+}
+#enemyContainer{
+	position:absolute;
+	height:600px;
+	width:800px;
+	overflow:hidden;
+}
+#gameFrame{
+	width:800px;
+	height:600px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:white;
+	z-index:1;
+	background-image: url("images/starfield.png");
+	background-position: 0px -9000px;
+	background-repeat: repeat;
+}
+body #gameFrame:hover{
+	-webkit-transition: background 100s linear;
+	background-position:0px 0px;
+}
+
+body{
+	background-color:black;
+}
+#background{
+	background: url('images/stars.png') 5% 20%, url('images/stars.png') 50% 30%, url('images/stars.png') 90% 130%;
+	background-repeat: repeat;
+	position:fixed;
+	width:99999px;
+	height:40000px;
+	z-index:-10;
+}
+body:hover #background{
+	-webkit-transition-property: width, height;
+	-webkit-transition-duration:300s, 300s;
+	-webkit-transition-timing-function: linear, linear;
+	width: 99999px;
+	height:90000px;
+}
+
+.enemy{
+	width:80px;
+	height:164px;
+	margin-right:-10px;
+	margin-bottom:-10px;
+	top:-200px;
+	-webkit-transform: rotate(-180deg);
+	position: absolute;
+	-webkit-transition-property: top;
+	-webkit-transition-delay:0s;
+	-webkit-transition-duration:0s;
+}
+.enemy img{
+	position:relative;
+	right:13px;
+	bottom:13px;
+}
+#gameInternal:hover .enemy{
+	top:900px;
+}
+
+
+body:hover .enemy:hover{
+	-webkit-transition: top 0s linear;
+	-webkit-transition-delay:0s;
+	width:800px;
+	height:600px;
+	top:0px;
+	left:0px;
+	background-color:black;
+	border: none;
+	cursor: crosshair;
+	z-index:40;
+}
+
+body:hover .enemy:hover img{
+	display:none;
+}
+
+#progressBar{
+	height:600px;
+	border: 10px solid white;
+	width:100px;
+	float:left;
+	position:relative;
+	left:-150px;
+	background-color:red;
+}
+
+#progressBar div{
+	height:600px;
+	width:100px;
+	background-color:black;
+	position:relative;
+	height:600px;
+}
+#gameFrame:hover #progressBar div{
+	height:0px;
+	-webkit-transition: height 100s linear;
+}
+/*.movementValidator{*/
+	/*z-index:100px;*/
+	/*height:600px;*/
+	/*width:800px;*/
+	/*position:absolute;*/
+	/*float:left;*/
+	/*margin-top:0px;*/
+/*}*/
+/*body:hover .movementValidator{*/
+	/*margin-top:0px;*/ground;
+	/*-webkit-transition-duration:0s,0s;*/
+	/*-webkit-transition-timing-function:linear,linear;*/
+	/*-webkit-transition-delay:2s, 2.5s;*/
+	/*-webkit-transition-property: margin,back;*/
+	/*background-color:black;*/
+/*}*/
+
+/*body:hover .movementValidator:hover{*/
+	/*background: none;*/
+	/*margin-top:-1000px;*/
+	/*-webkit-transition-property: margin,background;*/
+	/*-webkit-transition-duration:0s,0s;*/
+	/*-webkit-transition-timing-function:linear,linear;*/
+	/*-webkit-transition-delay:0s, 0s;*/
+/*}*/
